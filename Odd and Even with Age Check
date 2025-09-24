@@ -1,0 +1,17 @@
+n=int(input())
+if n%2==0:
+    print(f"{n} is an even number")
+else:
+    print(f"{n} is an odd number")
+age=int(input("enter the age:"))
+if age>18:
+    if age>75:
+        print("Risk for your life")
+    elif age>40:
+        print("Panic Attack")
+    elif age>25:
+        print("Dont make noise")
+    else:
+        print("Dont scream")
+else:
+    print("Not allowed")

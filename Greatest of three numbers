@@ -1,0 +1,7 @@
+a,b,c=map(int,input("enter 3 numbers:").split())
+if a>=b:
+    print("a is greater",a)
+elif b>=c:
+    print("b ia greater",b)
+else:
+    print("c is greater",c)

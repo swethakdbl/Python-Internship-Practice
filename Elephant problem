@@ -1,0 +1,6 @@
+E=int(input())
+if E%5==0:
+    x=E//5    
+else:
+    x=E//5+1  
+print(x)

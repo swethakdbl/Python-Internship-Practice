@@ -1,0 +1,12 @@
+num=int(input("enter the number:"))
+sum=0
+mul=0
+while num>0:
+    d=num%10
+    sum+=d
+    mul*=d
+    num=num//10
+if sum==mul:
+    print("Spy number")
+else:
+    print("Not Spy")

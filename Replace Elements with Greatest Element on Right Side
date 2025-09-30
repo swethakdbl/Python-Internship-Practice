@@ -1,0 +1,7 @@
+ arr=[17,18,5,4,6,1]
+        res=[]
+        for i in range(len(arr)-1):
+            m=max(arr[i+1:])
+            res.append(m)
+        result=res+[-1]
+        print(result)

@@ -1,0 +1,7 @@
+s=input()
+c=0
+v='aeiouabcdef'
+for char in s:
+    if char in v:
+        c+=1  
+print("consonents:",c)
